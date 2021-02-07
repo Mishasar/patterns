@@ -1,4 +1,7 @@
 # Example for patterns
-- Abstract factory
-- Factory method
-- Builder
+- Creational pattern:
+    - Abstract factory
+    - Factory method
+    - Builder
+    - Prototype
+    - Singleton
