@@ -18,3 +18,11 @@ $request->withBody(json_encode([
 $request->withProtocolVersion('1.0');
 
 echo $request->getHTTPRequest();
+
+// Output:
+//
+// POST /user HTTP/1.0
+// Host: example.com
+// Authorization:Bearer 12313123123
+//
+// {"name":"saraykin","password":"IUg78huIhg7UIlgiu"}

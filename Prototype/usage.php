@@ -31,3 +31,7 @@ echo showCarInformation($car1);
 echo showCarInformation($car2);
 echo showCarInformation($carWithoutVin);
 
+// Output
+// Car VAZ 2101 . Vin: VAZ 2101 0000001.
+// Car VAZ 2101 . Vin: VAZ 2101 0000002.
+// Car VAZ 2101 . Vin: .

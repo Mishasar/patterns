@@ -12,3 +12,7 @@ $cacheDriver->setValue('LAST_BOOK_PAGE', '674');
 
 $newCacheDriver = CacheDriver::getInstance();
 echo $newCacheDriver->getValue('LAST_BOOK_PAGE');
+
+// Output
+//
+// 674

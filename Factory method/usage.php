@@ -15,3 +15,8 @@ $fahrenheitThermometer = new FahrenheitThermometer($repository);
 
 echo $celsiusThermometer->format();
 echo $fahrenheitThermometer->format();
+
+// Output:
+//
+// Current temperature -25 °C.
+// Current temperature -13 °F.

@@ -28,3 +28,8 @@ function getTextForPublication(string $equipmentName): string
 
 echo getTextForPublication('STANDARD');
 echo getTextForPublication('AMG');
+
+// Output:
+//
+// It has a 100 horsepower Mercedes G4LC engine and an Mercedes 6MKPP manual transmission.
+// It has a 123 horsepower Mercedes G4FG engine and an Mercedes 6AKPP manual transmission.
