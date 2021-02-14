@@ -7,3 +7,4 @@
     - Singleton
 - Structural pattern:
     - Adapter
+    - Decorator
