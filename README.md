@@ -1,10 +1,11 @@
 # Example for patterns
 - Creational pattern:
-    - Abstract factory
-    - Factory method
-    - Builder
-    - Prototype
-    - Singleton
+  - Abstract factory
+  - Factory method
+  - Builder
+  - Prototype
+  - Singleton
 - Structural pattern:
-    - Adapter
-    - Decorator
+  - Adapter
+  - Decorator
+  - Proxy
