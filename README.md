@@ -5,3 +5,5 @@
     - Builder
     - Prototype
     - Singleton
+- Structural pattern:
+    - Adapter
