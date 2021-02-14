@@ -3,14 +3,14 @@
 namespace App\Models\Transmission;
 
 /**
- * Transmission Mercedes 6AKPP
+ * Transmission Hyundai 6MKPP
  */
-class Mercedes6AKPP implements \App\Interfaces\ITransmission
+class Hyundai6MKPP implements \App\Interfaces\ITransmission
 {
     /**
      * @var string
      */
-    private $name = 'Mercedes 6AKPP';
+    private $name = 'Hyundai 6MKPP';
 
     /**
      * @var string

@@ -1,7 +1,7 @@
 <?php
 
-use App\Factories\StandardAutoEquipment;
-use App\Factories\AmgAutoEquipment;
+use App\Factories\LowAutoEquipment;
+use App\Factories\TopAutoEquipment;
 use App\Service\Formatter;
 
 spl_autoload_register(static function (string $class) {
@@ -17,17 +17,17 @@ function getTextForPublication(string $equipmentName): string
     $formatter = new Formatter();
 
     switch ($equipmentName) {
-        case 'STANDARD':
-            return $formatter->format(new StandardAutoEquipment());
-        case 'AMG':
-            return $formatter->format(new AmgAutoEquipment());
+        case 'LOW':
+            return $formatter->format(new LowAutoEquipment());
+        case 'TOP':
+            return $formatter->format(new TopAutoEquipment());
     }
 
     throw new RuntimeException('Unknown equipment name');
 }
 
-echo getTextForPublication('STANDARD');
-echo getTextForPublication('AMG');
+echo getTextForPublication('LOW');
+echo getTextForPublication('TOP');
 
 // Output:
 //

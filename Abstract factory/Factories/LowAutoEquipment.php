@@ -4,13 +4,13 @@ namespace App\Factories;
 
 use App\Interfaces\IEngine;
 use App\Interfaces\ITransmission;
-use App\Models\Engine\G4FG;
-use App\Models\Transmission\Mercedes6AKPP;
+use App\Models\Engine\G4LC;
+use App\Models\Transmission\Hyundai6MKPP;
 
 /**
- * Top auto equipment from Mercedes Solaris 2020
+ * Low auto equipment from Hyundai Solaris 2020
  */
-class AmgAutoEquipment implements \App\Interfaces\IAutoEquipment
+class LowAutoEquipment implements \App\Interfaces\IAutoEquipment
 {
     /**
      * @var IEngine
@@ -27,8 +27,8 @@ class AmgAutoEquipment implements \App\Interfaces\IAutoEquipment
      */
     public function __construct()
     {
-        $this->engine = new G4FG();
-        $this->transmission = new Mercedes6AKPP();
+        $this->engine = new G4LC();
+        $this->transmission = new Hyundai6MKPP();
     }
 
     /**
@@ -42,7 +42,7 @@ class AmgAutoEquipment implements \App\Interfaces\IAutoEquipment
     /**
      * @inheritDoc
      */
-    final public function getTransmission(): ITransmission
+    public function getTransmission(): ITransmission
     {
         return $this->transmission;
     }

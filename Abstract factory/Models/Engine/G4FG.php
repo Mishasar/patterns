@@ -3,14 +3,14 @@
 namespace App\Models\Engine;
 
 /**
- * Engine Mercedes G4FG
+ * Engine Hyundai G4FG
  */
 class G4FG implements \App\Interfaces\IEngine
 {
     /**
      * @var string
      */
-    private $name = 'Mercedes G4FG';
+    private $name = 'Hyundai G4FG';
 
     /**
      * @var int
