@@ -11,3 +11,4 @@
   - Proxy
   - Bridge
   - Composite
+  - Facade
