@@ -10,3 +10,4 @@
   - Decorator
   - Proxy
   - Bridge
+  - Composite
