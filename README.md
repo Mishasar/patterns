@@ -12,3 +12,4 @@
   - Bridge
   - Composite
   - Facade
+  - Flyweight
