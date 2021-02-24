@@ -14,7 +14,7 @@ $size = new \App\Models\Size(10, 12);
 $symbolFactory = new \App\Factories\SymbolFactory($size);
 
 foreach ($chars as $key) {
-    $symbol = $symbolFactory->getCharacter($key);
+    $symbol = $symbolFactory->getSymbol($key);
     $symbol->display();
 }
 

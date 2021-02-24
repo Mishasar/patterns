@@ -20,7 +20,7 @@ class SymbolFactory
 
     private $symbols = array();
 
-    public function getCharacter($key)
+    public function getSymbol($key)
     {
         if (!array_key_exists($key, $this->symbols)) {
             switch ($key) {
