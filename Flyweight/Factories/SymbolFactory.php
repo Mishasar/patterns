@@ -3,6 +3,7 @@
 namespace App\Factories;
 
 use App\Models\Size;
+use App\Models\Symbol;
 use App\Models\SymbolA;
 use App\Models\SymbolB;
 
@@ -13,12 +14,15 @@ class SymbolFactory
      */
     private $size;
 
+    /**
+     * @var Symbol[]
+     */
+    private $symbols = array();
+
     public function __construct(Size $size)
     {
         $this->size = $size;
     }
-
-    private $symbols = array();
 
     public function getSymbol($key)
     {
