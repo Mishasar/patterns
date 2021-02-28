@@ -15,3 +15,4 @@
   - Flyweight
 - Behavioral patterns:
   - Chain of responsibility
+  - Command
