@@ -16,3 +16,4 @@
 - Behavioral patterns:
   - Chain of responsibility
   - Command
+  - Iterator
