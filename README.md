@@ -17,3 +17,4 @@
   - Chain of responsibility
   - Command
   - Iterator
+  - Mediator
