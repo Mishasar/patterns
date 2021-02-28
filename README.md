@@ -1,11 +1,11 @@
 # Example for patterns
-- Creational pattern:
+- Creational patterns:
   - Abstract factory
   - Factory method
   - Builder
   - Prototype
   - Singleton
-- Structural pattern:
+- Structural patterns:
   - Adapter
   - Decorator
   - Proxy
@@ -13,3 +13,5 @@
   - Composite
   - Facade
   - Flyweight
+- Behavioral patterns:
+  - Chain of responsibility
