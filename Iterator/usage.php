@@ -6,7 +6,6 @@ spl_autoload_register(static function (string $class) {
     include str_replace(array('\\', 'App/'), array(DIRECTORY_SEPARATOR, ''), $class) . '.php';
 });
 
-
 $collection = new Collection();
 $collection->addItem(1);
 $collection->addItem(2);

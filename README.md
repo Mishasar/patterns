@@ -18,3 +18,4 @@
   - Command
   - Iterator
   - Mediator
+  - Memento

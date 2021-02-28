@@ -1,9 +1,11 @@
 <?php
 
-
 namespace App\Services;
 
-
+/**
+ * Class RoleService
+ * @package App\Services
+ */
 class RoleService extends BaseService
 {
     public function createRole(): void

@@ -4,6 +4,10 @@ namespace App\Services;
 
 use App\Interfaces\IMediator;
 
+/**
+ * Class Mediator
+ * @package App\Services
+ */
 class Mediator implements IMediator
 {
     /**
@@ -16,6 +20,11 @@ class Mediator implements IMediator
      */
     private $roleService;
 
+    /**
+     * Mediator constructor.
+     * @param UserService $userService
+     * @param RoleService $roleService
+     */
     public function __construct(UserService $userService, RoleService $roleService)
     {
         $userService->setMediator($this);
