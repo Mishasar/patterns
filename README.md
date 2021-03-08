@@ -19,3 +19,4 @@
   - Iterator
   - Mediator
   - Memento
+  - Observer

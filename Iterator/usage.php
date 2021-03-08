@@ -24,6 +24,12 @@ foreach ($collection->getReverseIterator() as $item) {
 
 // Output
 //
-// Role is created.
-// User is created.
-// Please, set role to new user.
+// Asc iterable:
+// 1
+// 2
+// 3
+//
+// Desc iterable:
+// 3
+// 2
+// 1
