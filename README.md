@@ -22,3 +22,4 @@
   - Observer
   - State
   - Strategy
+  - Template method
