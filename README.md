@@ -21,3 +21,4 @@
   - Memento
   - Observer
   - State
+  - Strategy
